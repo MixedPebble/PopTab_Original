@@ -1,0 +1,40 @@
+.outer-wrapper{
+  border: 1px solid #000000;  overflow:auto;
+  width:25%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 40%;
+  overflow-y: scroll;
+  position:absolute;
+  right:0%;
+  bottom:0% 
+} 
+
+
+.clearfix {
+  background: #EEFF00;  
+  clear: both;
+  }
+
+  .outer-wrapper input, .outer-wrapper textarea, .outer-wrapper button {
+    border: 1px solid #FFFFFF;
+    padding: 4px;
+    background: #FFFFFF;
+    border-radius: 3px;
+  }
+
+  .outer-wrapper button:hover, .outer-wrapper button:focus {
+    background: #ddd;
+  }
+
+  .outer-wrapper h2 {
+    font-size: 1.2rem;
+  }
+
+  .outer-wrapper p {
+    margin: 0;
+    font-size: 1.0rem;
+    
+  }
+
+ 

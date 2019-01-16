@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/weather.css" />
+  <link rel="stylesheet" type="text/css" href="styles/clock.css" />
+  <link rel="stylesheet" type="text/css" href="styles/settings.css" />
+  <link rel="stylesheet" type="text/css" href="styles/quicknote.css" />
+  <meta charset="utf-8">
+</head>
+
+<body scroll="no" style="overflow: hidden">
+
+  <span style="font-size:30px;cursor:pointer" id=openSettings>&#9776;</span>
+
+  <div id="mySettings" class="settings">
+    <a href="#" class="closebtn" id=closeSettings>&times;</a>
+    <a href="#">Background</a>
+    <select id="myDropdown" class="dropdown">
+      <option value="grey">Grey</option>
+      <option value="customImage">Choose Image</option>
+      <option value="solidColor">Solid Color</option>
+
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="red">Red</option>
+      <option value="yellow">Yellow</option>
+    </select>
+  </div>
+
+  <div id="myClock" class="clock">clock</div>
+
+  <div class="outer-wrapper" scroll="yes">
+    <div class="new-note">
+      <input type="text">
+      <textarea></textarea>
+      <button class="add">&#128932;</button>
+      <divclass="clearfix">
+        </divclass>
+    </div>
+    <div class="note-container"></div>
+  </div>
+
+
+  <div id="myWeather" class="myWeathers">
+
+    <img id="current-icon">
+    <div id="current-weather-details">
+      <a id="current-humidity">--</a>
+      <a id="current-temperature">--</a>
+      <a id="current-wind-speed">--</a>
+      <p id="weather-summary"></p>
+    </div>
+  </div>
+
+  <div id="mySearch">
+
+    <form action="http://google.com" method="get" target="_blank" id='search'>
+      <input type="text" name="q" id="q" />
+      <input type="submit" value=&#x1F50D;>
+  </div>
+
+  <!--
+    <script src="scripts/search.js"></script>
+<script src=scripts/weather.js></script>
+
+-->
+  <script src="scripts/quicknote.js"></script>
+  <script src="scripts/test.js"></script>
+  <script src=scripts/settings.js> </script> <script src=scripts/background.js> </script> <script src=scripts/digitalClock.js> </script> </body> </html>

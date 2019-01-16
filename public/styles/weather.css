@@ -1,0 +1,55 @@
+#myWeather {
+    position: absolute;
+    top: 0%;
+    right: 0px;
+    opacity: 0.8;
+
+}
+#current-icon {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    display: block; /*for the img inside your div */  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+#current-weather-details {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+#current-weather-details a {
+    font-size: 16px;
+    text-align: center;
+    color: #2600FF;
+    flex-wrap: wrap;
+    
+    font-family: 'Fresca', sans-serif;
+    letter-spacing: 0.2px;
+    cursor: default;
+}
+
+#current-temperature {
+    cursor: pointer;
+}
+
+#getWeather:active {
+  color: #FFFFFF;
+}
+
+#weather-summary {
+    border-radius: 10px;
+    font-family: 'Fresca', sans-serif;
+    color: #2600FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   opacity: 0.8;
+}

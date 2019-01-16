@@ -1,0 +1,12 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#myClock {
+    position:absolute;
+    height:100px;
+    width:100px;
+    left:50%;
+    top:50%;
+
+}

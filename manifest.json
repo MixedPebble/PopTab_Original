@@ -1,0 +1,42 @@
+{
+
+  "manifest_version": 2,
+  "name": "PopTab_Orginal",
+  "version": "1.0",
+  "description": "A new way to stay productive. Stay on task with customizable widgets and a sleek design you can customize yourself!",
+  "applications": {
+    "gecko":{
+      "id": "addon@example.com"
+    }
+  },
+
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "background": {
+    "scripts": [
+        "public/scripts/rightClick.js"
+    ]
+},
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "geolocation",
+    "contextMenus",
+    "activeTab",
+    "contextMenus",
+    "clipboardWrite"
+
+  ],
+
+
+  "chrome_settings_overrides": {
+    "homepage": "public/index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "public/index.html"
+	}
+}
